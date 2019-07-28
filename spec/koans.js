@@ -15,7 +15,7 @@ describe('`let` restricts the scope of the variable to the current block - ', ()
 
     it('`let` restricts scope to inside the block', () => {
       /*var or const? letX = false*/
-      if (true) {
+      if (true) { var
         /*var or const? letX = true*/
       }
       //expect(letX).toBe(false);
